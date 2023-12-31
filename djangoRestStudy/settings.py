@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+88@97@_g&56l9ryk^=cjqeb9*uk^l02wyyt)it6b=7586!+!7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -54,8 +54,7 @@ ROOT_URLCONF = 'djangoRestStudy.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
